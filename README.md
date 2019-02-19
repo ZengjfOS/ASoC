@@ -10,6 +10,8 @@
 
 ## 笔记文档
 
+* [0010_snd_pcm_new.md](docs/0010_snd_pcm_new.md)：看一下pcm的创建过程；
+* [0009_RPI_ALSA_Tinyalsa.md](docs/0009_RPI_ALSA_Tinyalsa.md)：看一下树莓派的声卡情况；
 * [0008_widget-control-route_Add_To_Card.md](docs/0008_widget-control-route_Add_To_Card.md)：component中widget/contorl/route添加到Card中的流程；
 * [0007_component_probe.md](docs/0007_component_probe.md)：了解一下component中的那些widgets/controls/routes/dai/probe等如何被调用起作用的；
 * [0006_bind_dai_link.md](docs/0006_bind_dai_link.md)：pcm runtime(rtd)在这里绑定需要dai_link涉及到的CPU/Platform/Codec component；

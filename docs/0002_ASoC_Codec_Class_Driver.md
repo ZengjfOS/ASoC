@@ -67,7 +67,7 @@ static struct snd_soc_dai_driver cs42xx8_dai = {
         .rates          = SNDRV_PCM_RATE_8000_192000,
         .formats        = CS42XX8_FORMATS,
     },
-    .ops = &cs42xx8_dai_ops,
+    .ops = &cs42xx8_dai_ops,                                    // 这里的ops会转移到生成的pcm的ops
 };
 ```
 

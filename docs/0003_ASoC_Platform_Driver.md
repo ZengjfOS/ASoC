@@ -50,7 +50,7 @@ https://elixir.bootlin.com/linux/v5.0-rc6/source/sound/soc/fsl/fsl_esai.c#L915
           .rates = SNDRV_PCM_RATE_8000_192000,
           .formats = FSL_ESAI_FORMATS,
       },
-      .ops = &fsl_esai_dai_ops,
+      .ops = &fsl_esai_dai_ops,                                 // 这里的ops会转移到生成的pcm的ops
   };
   ```
 
