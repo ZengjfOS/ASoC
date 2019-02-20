@@ -7,9 +7,11 @@
 * [Linux Source Code Online](https://elixir.bootlin.com/linux/latest/source)
 * [ALSA SoC Layer](https://www.kernel.org/doc/html/v4.11/sound/soc/index.html)
 * [sound-cs42888 dts](https://github.com/torvalds/linux/blob/master/arch/arm/boot/dts/imx6qdl-sabreauto.dtsi#L124)
+* [Tiny library to interface with ALSA in the Linux kernel](https://github.com/tinyalsa/tinyalsa)
 
 ## 笔记文档
 
+* [0013_tinymix.md](docs/0013_tinymix.md)：tinymix的调用control流程；
 * [0012_Control_Device.md](docs/0012_Control_Device.md)：声卡的control设备节点是怎么生成的，回调函数在哪里？
 * [0011_tinyplay.md](docs/0011_tinyplay.md)：aplay代码量有点大，分析一下tinyplay，看看wav文件数据是如何写道PCM设备节点中去的；
 * [0010_snd_pcm_new.md](docs/0010_snd_pcm_new.md)：看一下pcm的创建过程；
