@@ -1,7 +1,7 @@
 # snd_pcm_new
 
 * 主要是跟踪snd_pcm_new如何创建PCM设备节点的，以及操作PCM的设备节点的时候对应的操作函数在哪里；
-* 驱动中component的dai的ops会被绑定到pcm的ops中；
+* 驱动中component的dai的ops会被绑定到pcm的[ops](https://elixir.bootlin.com/linux/latest/source/sound/soc/soc-pcm.c#L3096)中；
 
 ## [`snd_soc_instantiate_card`](https://elixir.bootlin.com/linux/v5.0-rc6/source/sound/soc/soc-core.c#L1979)调用[`soc_probe_link_dais`](https://elixir.bootlin.com/linux/v5.0-rc6/source/sound/soc/soc-core.c#L2087)
 

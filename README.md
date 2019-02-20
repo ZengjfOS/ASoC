@@ -10,6 +10,8 @@
 
 ## 笔记文档
 
+* [0012_Control_Device.md](docs/0012_Control_Device.md)：声卡的control设备节点是怎么生成的，回调函数在哪里？
+* [0011_tinyplay.md](docs/0011_tinyplay.md)：aplay代码量有点大，分析一下tinyplay，看看wav文件数据是如何写道PCM设备节点中去的；
 * [0010_snd_pcm_new.md](docs/0010_snd_pcm_new.md)：看一下pcm的创建过程；
 * [0009_RPI_ALSA_Tinyalsa.md](docs/0009_RPI_ALSA_Tinyalsa.md)：看一下树莓派的声卡情况；
 * [0008_widget-control-route_Add_To_Card.md](docs/0008_widget-control-route_Add_To_Card.md)：component中widget/contorl/route添加到Card中的流程；
