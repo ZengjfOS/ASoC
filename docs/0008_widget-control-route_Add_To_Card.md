@@ -6,6 +6,11 @@
 * component->driver->controls添加：[snd_soc_add_component_controls Source Code](https://elixir.bootlin.com/linux/v5.0-rc6/source/sound/soc/soc-core.c#L2383)
 * component->driver->dapm_routes添加：[snd_soc_dapm_add_routes Source Code](https://elixir.bootlin.com/linux/v5.0-rc6/source/sound/soc/soc-dapm.c#L2896)
 
+最终结果如下：  
+* widget --> card->widgets
+* control --> card->controls
+* route --> card->paths
+
 ## widget
 
 * [Codec CS42888 widgets 示例](0002_ASoC_Codec_Class_Driver.md#dapm_widgets)

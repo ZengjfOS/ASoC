@@ -11,6 +11,8 @@
 
 ## 笔记文档
 
+* [0015_dapm-event.md](docs/0015_dapm-event.md)：dapm并没有外部设备节点控制，如何进行操作的呢？
+* [0014_widget_dapm-control.md](docs/0014_widget_dapm-cmntrol.md)：widget和widget连接的route中的control在哪里进行操作？
 * [0013_tinymix.md](docs/0013_tinymix.md)：tinymix的调用control流程；
 * [0012_Control_Device.md](docs/0012_Control_Device.md)：声卡的control设备节点是怎么生成的，回调函数在哪里？
 * [0011_tinyplay.md](docs/0011_tinyplay.md)：aplay代码量有点大，分析一下tinyplay，看看wav文件数据是如何写道PCM设备节点中去的；
