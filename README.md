@@ -11,6 +11,7 @@
 
 ## 笔记文档
 
+* [0016_tinycap.md](docs/0016_tinycap.md)：看一下录音在用户层阶段是如何进行录制wav格式声音的；
 * [0015_dapm-event.md](docs/0015_dapm-event.md)：dapm并没有外部设备节点控制，如何进行操作的呢？
 * [0014_widget_dapm-control.md](docs/0014_widget_dapm-cmntrol.md)：widget和widget连接的route中的control在哪里进行操作？
 * [0013_tinymix.md](docs/0013_tinymix.md)：tinymix的调用control流程；
