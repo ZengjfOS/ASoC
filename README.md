@@ -11,6 +11,7 @@
 
 ## 笔记文档
 
+* [0018_ALSA_Period.md](docs/0018_ALSA_Period.md)：理解ALSA中Period的概念，理解它才能理解应用层软件如何操作声卡；
 * [0017_I2S_Frame.md](docs/0017_I2S_Frame.md)：I2S进行声音数据传输的时候，如何表示一帧声音数据，在Linux应用层软件进行PCM数据存储的时候，也是一帧一帧的对数据进行储存；
 * [0016_tinycap.md](docs/0016_tinycap.md)：看一下录音在用户层阶段是如何进行录制wav格式声音的；
 * [0015_dapm-event.md](docs/0015_dapm-event.md)：dapm并没有外部设备节点控制，如何进行操作的呢？
