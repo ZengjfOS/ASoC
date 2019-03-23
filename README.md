@@ -11,6 +11,7 @@
 
 ## 笔记文档
 
+* [0020_PCM_Interface_I2S_Master-Slave.md](docs/0020_PCM_Interface_I2S_Master-Slave.md)：PCM接口I2S数据格式，主从I2S谁来发送BCLK/LRCLK?
 * [0019_Generate_wavfile](docs/0019_Generate_wavfile/README.md)：如何生成特定wav文件来测试声卡；
 * [0018_ALSA_Period.md](docs/0018_ALSA_Period.md)：理解ALSA中Period的概念，理解它才能理解应用层软件如何操作声卡；
 * [0017_I2S_Frame.md](docs/0017_I2S_Frame.md)：I2S进行声音数据传输的时候，如何表示一帧声音数据，在Linux应用层软件进行PCM数据存储的时候，也是一帧一帧的对数据进行储存；

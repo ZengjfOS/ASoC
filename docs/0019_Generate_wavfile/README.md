@@ -4,6 +4,7 @@
 
 * [WaveFormat](http://soundfile.sapp.org/doc/WaveFormat/)
 * [wavfile: A Simple Sound Library](https://www3.nd.edu/~dthain/courses/cse20211/fall2013/wavfile/)
+* [pcm-to-wav](https://github.com/jwhu1024/pcm-to-wav/blob/master/src/wave.c)
 
 ## 生成蓝牙声音源代码
 
