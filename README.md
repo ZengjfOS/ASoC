@@ -11,6 +11,7 @@
 
 ## 笔记文档
 
+* [0021_Android_Bluetooth_HFP.md](docs/0021_Android_Bluetooth_HFP.md)：蓝牙语音通话时，声道怎么切换的？
 * [0020_PCM_Interface_I2S_Master-Slave.md](docs/0020_PCM_Interface_I2S_Master-Slave.md)：PCM接口I2S数据格式，主从I2S谁来发送BCLK/LRCLK?
 * [0019_Generate_wavfile](docs/0019_Generate_wavfile/README.md)：如何生成特定wav文件来测试声卡；
 * [0018_ALSA_Period.md](docs/0018_ALSA_Period.md)：理解ALSA中Period的概念，理解它才能理解应用层软件如何操作声卡；
